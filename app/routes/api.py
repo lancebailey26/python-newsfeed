@@ -134,7 +134,7 @@ def update(id):
 def delete(id):
   db = get_db()
   try:
-    db.delete(Post).filter(Post.id == id).one()
+    db.delete(db.query(Post).filter(Post.id == id).one())
     db.commit()
   except:
    print(sys.exc_info()[0])
