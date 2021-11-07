@@ -129,7 +129,7 @@ def update(id):
    return jsonify(message='Post not found'), 404
   return '', 204
 
-@bp.route('/posts/<id>', methods=['PUT']) #deletepost
+@bp.route('/posts/<id>', methods=['DELETE']) #deletepost
 @login_required
 def delete(id):
   db = get_db()
