@@ -1,4 +1,3 @@
-from types import MethodDescriptorType
 from flask import Blueprint, json, request, jsonify, session
 from sqlalchemy.sql.expression import false
 from app.models import User, Post, Comment, Vote

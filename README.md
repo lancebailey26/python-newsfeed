@@ -1,3 +1,13 @@
-# python-newsfeed
+# Python News
 
-this is a mini project to teach myself some of the basics of Python.
+This is a mini project to teach myself some of the basics of Python.
+
+# Technologies
+* Python
+* Flask
+* MySQL
+
+
+# https://python-newsy.herokuapp.com
+
+ ![Screenshot](./app/assets/Screenshot.png)
